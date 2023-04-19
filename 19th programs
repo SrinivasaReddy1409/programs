@@ -9,3 +9,18 @@ if (rev==num):
     print("Palindrome");
 else :
     print("Not Palindrome");
+
+#armstrong
+a=int(input("enter 3 digit number:");
+temp=a;
+sum=0;
+while num!=0:
+    rem=a%10;
+    sum=sum+rem**3;
+    num=num//10;
+if(sum==temp):
+        print("Armstrong number");
+else :
+        print("Not Armstrong number");
+    
+    
